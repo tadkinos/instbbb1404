@@ -9,7 +9,7 @@ update-locale LANG=en_US.UTF-8
 
 echo "deb http://us.archive.ubuntu.com/ubuntu/ trusty multiverse" | sudo tee -a /etc/apt/sources.list
 apt-get update
-apt-get dist-upgrade
+apt-get dist-upgrade -y
 
 echo "*********************************"
 echo "2. Install key for BigBlueButton"
