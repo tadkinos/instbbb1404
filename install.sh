@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 echo "**********************"
 echo "1. Update your server"
 echo "**********************"
